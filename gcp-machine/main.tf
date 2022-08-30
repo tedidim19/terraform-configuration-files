@@ -11,4 +11,6 @@ resource "google_compute_instance" "krisi-tf" {
   network_interface {
     network = "default"
   }
+  provider = "google"
+  zone = "europe-west1-b"
 }
