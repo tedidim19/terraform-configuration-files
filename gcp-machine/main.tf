@@ -1,8 +1,8 @@
 provider "google" {}
 
-resource "google_compute_instance" "krisi-tf" {
+resource "google_compute_instance" "teddy-tf" {
   machine_type = "e2-medium"
-  name = "tf-machine99"
+  name = "tf-machine"
   boot_disk {
     initialize_params {
       image = "debian-cloud/debian-11"
